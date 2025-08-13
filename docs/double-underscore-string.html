@@ -4,7 +4,7 @@
     <!-- Set the viewport width to device width for mobile -->
     <meta name="viewport" content="width=device-width" />
 
-    <title>Double-Leading</title>
+    <title>Double-Underscore-String</title>
 
     <link rel="stylesheet" href="https://prabjaya.github.io/pynotes/theme/css/normalize.css" />
     <link rel="stylesheet" href="https://prabjaya.github.io/pynotes/theme/css/foundation.min.css" />
@@ -44,8 +44,8 @@
     <div class="large-9 columns">
 <article>
     <header>
-        <h3 class="article-title"><a href="https://prabjaya.github.io/pynotes/double-leading.html" rel="bookmark"
-        title="Permalink to Double-Leading">Double-Leading</a></h3>
+        <h3 class="article-title"><a href="https://prabjaya.github.io/pynotes/double-underscore-string.html" rel="bookmark"
+        title="Permalink to Double-Underscore-String">Double-Underscore-String</a></h3>
     </header>
 
 <h6 class="subheader" title="2025-08-13T00:00:00-04:00">Wed 13 August 2025
@@ -55,34 +55,25 @@
     <div class="highlight"><pre><span></span><code><span class="c1">#  created at : 20250118</span>
 </code></pre></div>
 
-<div class="highlight"><pre><span></span><code><span class="c1"># https://chatgpt.com/c/678ad66f-280c-800d-b5d8-0bfbe5bfff94</span>
+<div class="highlight"><pre><span></span><code><span class="k">class</span><span class="w"> </span><span class="nc">Dusp</span><span class="p">:</span>
+    <span class="k">def</span><span class="w"> </span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">name</span><span class="p">,</span><span class="n">age</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">name</span>  <span class="o">=</span> <span class="n">name</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">age</span> <span class="o">=</span> <span class="n">age</span>
+
+    <span class="k">def</span><span class="w"> </span><span class="fm">__str__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="sa">f</span><span class="s2">&quot;Person(Name = </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2">, age = </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">age</span><span class="si">}</span><span class="s2">)&quot;</span>
+<span class="n">obj</span> <span class="o">=</span> <span class="n">Dusp</span><span class="p">(</span><span class="s1">&#39;Lavan&#39;</span><span class="p">,</span><span class="mi">4</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">obj</span><span class="p">)</span>
 </code></pre></div>
 
-<div class="highlight"><pre><span></span><code><span class="k">class</span><span class="w"> </span><span class="nc">Dblp</span><span class="p">:</span>
-    <span class="k">def</span><span class="w"> </span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">__privatevariable</span> <span class="o">=</span> <span class="mi">10</span>
-
-    <span class="k">def</span><span class="w"> </span><span class="nf">__private_method</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Private method&quot;</span><span class="p">)</span>
-</code></pre></div>
-
-<div class="highlight"><pre><span></span><code><span class="n">obj</span> <span class="o">=</span> <span class="n">Dblp</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">obj</span><span class="o">.</span><span class="n">_Dblp__privatevariable</span><span class="p">)</span>
-<span class="n">obj</span><span class="o">.</span><span class="n">_Dblp__private_method</span><span class="p">()</span>
-</code></pre></div>
-
-<div class="highlight"><pre><span></span><code><span class="mf">10</span>
-<span class="n">Private</span><span class="w"> </span><span class="n">method</span>
-</code></pre></div>
-
-<div class="highlight"><pre><span></span><code>
+<div class="highlight"><pre><span></span><code>Person(Name = Lavan, age = 4)
 </code></pre></div>
 
 <div class="highlight"><pre><span></span><code>
 </code></pre></div>
 
 <hr>
-<p><strong>Score: 5</strong></p>
+<p><strong>Score: 0</strong></p>
 <p class="subheader">Category: <a href="https://prabjaya.github.io/pynotes/category/basics.html">basics</a>
 
 </p>

@@ -47,7 +47,7 @@
 
             <article>
                 <a href="https://prabjaya.github.io/pynotes/add-a-new-column.html"><h3 class="article-title">Add-A-New-Column</h3></a>
-<h6 class="subheader" title="2025-01-18T00:00:00-05:00">Sat 18 January 2025
+<h6 class="subheader" title="2025-08-13T00:00:00-04:00">Wed 13 August 2025
 </h6>
 
 
@@ -194,7 +194,7 @@
 
             <article>
                 <a href="https://prabjaya.github.io/pynotes/age-calculator.html"><h3 class="article-title">Age-Calculator</h3></a>
-<h6 class="subheader" title="2025-01-18T00:00:00-05:00">Sat 18 January 2025
+<h6 class="subheader" title="2025-08-13T00:00:00-04:00">Wed 13 August 2025
 </h6>
 
 
@@ -236,8 +236,55 @@
 
 
             <article>
+                <a href="https://prabjaya.github.io/pynotes/classvariable.html"><h3 class="article-title">Classvariable</h3></a>
+<h6 class="subheader" title="2025-08-13T00:00:00-04:00">Wed 13 August 2025
+</h6>
+
+
+<div class="highlight"><pre><span></span><code><span class="k">class</span><span class="w"> </span><span class="nc">Classvariablepg</span><span class="p">:</span>
+    <span class="n">family</span> <span class="o">=</span> <span class="s2">&quot;families&quot;</span>
+    <span class="k">def</span><span class="w"> </span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span><span class="n">age</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">age</span> <span class="o">=</span> <span class="n">age</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">Classvariablepg</span><span class="o">.</span><span class="n">family</span><span class="p">)</span>
+
+<span class="n">obj1</span>  <span class="o">=</span> <span class="n">Classvariablepg</span><span class="p">(</span><span class="s2">&quot;Lavan&quot;</span><span class="p">,</span><span class="mi">4</span><span class="p">)</span>
+<span class="n">obj2</span>  <span class="o">=</span> <span class="n">Classvariablepg</span><span class="p">(</span><span class="s2">&quot;Gagan&quot;</span><span class="p">,</span><span class="mi">5</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">obj1</span><span class="o">.</span><span class="n">family</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">obj2</span><span class="o">.</span><span class="n">family</span><span class="p">)</span>
+
+<span class="n">Classvariablepg</span><span class="o">.</span><span class="n">family</span> <span class="o">=</span> <span class="s2">&quot;relativies&quot;</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">obj1</span><span class="o">.</span><span class="n">family</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">obj2</span><span class="o">.</span><span class="n">family</span><span class="p">)</span>  
+</code></pre></div>
+
+<div class="highlight"><pre><span></span><code>families
+families
+families
+relativies
+relativies
+</code></pre></div>
+
+<div class="highlight"><pre><span></span><code>
+</code></pre></div>
+
+<hr>
+<p><strong>Score: 0</strong></p><p class="subheader">Category: <a href="https://prabjaya.github.io/pynotes/category/basics.html">basics</a>
+
+</p>
+
+
+
+                <a class="button radius secondary small right" href="https://prabjaya.github.io/pynotes/classvariable.html">Read More</a>
+                <hr  class="gradient"/>
+            </article>
+
+        
+
+
+            <article>
                 <a href="https://prabjaya.github.io/pynotes/double-leading.html"><h3 class="article-title">Double-Leading</h3></a>
-<h6 class="subheader" title="2025-01-18T00:00:00-05:00">Sat 18 January 2025
+<h6 class="subheader" title="2025-08-13T00:00:00-04:00">Wed 13 August 2025
 </h6>
 
 
@@ -285,8 +332,85 @@
 
 
             <article>
+                <a href="https://prabjaya.github.io/pynotes/double-unders-repr.html"><h3 class="article-title">Double-Unders-Repr</h3></a>
+<h6 class="subheader" title="2025-08-13T00:00:00-04:00">Wed 13 August 2025
+</h6>
+
+
+<div class="highlight"><pre><span></span><code><span class="k">class</span><span class="w"> </span><span class="nc">Durepr</span><span class="p">:</span>
+    <span class="k">def</span><span class="w"> </span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">name</span><span class="p">,</span><span class="n">age</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">age</span> <span class="o">=</span> <span class="n">age</span>
+
+    <span class="k">def</span><span class="w"> </span><span class="fm">__repr__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="sa">f</span><span class="s2">&quot;Person (&#39;</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2">&#39;,</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">age</span><span class="si">}</span><span class="s2">)&quot;</span>
+<span class="n">obj</span> <span class="o">=</span> <span class="n">Durepr</span><span class="p">(</span><span class="s1">&#39;Lavan&#39;</span><span class="p">,</span><span class="mi">4</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">obj</span><span class="p">)</span>
+</code></pre></div>
+
+<div class="highlight"><pre><span></span><code>Person (&#39;Lavan&#39;,4)
+</code></pre></div>
+
+<div class="highlight"><pre><span></span><code>
+</code></pre></div>
+
+<hr>
+<p><strong>Score: 0</strong></p><p class="subheader">Category: <a href="https://prabjaya.github.io/pynotes/category/basics.html">basics</a>
+
+</p>
+
+
+
+                <a class="button radius secondary small right" href="https://prabjaya.github.io/pynotes/double-unders-repr.html">Read More</a>
+                <hr  class="gradient"/>
+            </article>
+
+        
+
+
+            <article>
+                <a href="https://prabjaya.github.io/pynotes/double-underscore-string.html"><h3 class="article-title">Double-Underscore-String</h3></a>
+<h6 class="subheader" title="2025-08-13T00:00:00-04:00">Wed 13 August 2025
+</h6>
+
+
+<div class="highlight"><pre><span></span><code><span class="c1">#  created at : 20250118</span>
+</code></pre></div>
+
+<div class="highlight"><pre><span></span><code><span class="k">class</span><span class="w"> </span><span class="nc">Dusp</span><span class="p">:</span>
+    <span class="k">def</span><span class="w"> </span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">name</span><span class="p">,</span><span class="n">age</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">name</span>  <span class="o">=</span> <span class="n">name</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">age</span> <span class="o">=</span> <span class="n">age</span>
+
+    <span class="k">def</span><span class="w"> </span><span class="fm">__str__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="sa">f</span><span class="s2">&quot;Person(Name = </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2">, age = </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">age</span><span class="si">}</span><span class="s2">)&quot;</span>
+<span class="n">obj</span> <span class="o">=</span> <span class="n">Dusp</span><span class="p">(</span><span class="s1">&#39;Lavan&#39;</span><span class="p">,</span><span class="mi">4</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">obj</span><span class="p">)</span>
+</code></pre></div>
+
+<div class="highlight"><pre><span></span><code>Person(Name = Lavan, age = 4)
+</code></pre></div>
+
+<div class="highlight"><pre><span></span><code>
+</code></pre></div>
+
+<hr>
+<p><strong>Score: 0</strong></p><p class="subheader">Category: <a href="https://prabjaya.github.io/pynotes/category/basics.html">basics</a>
+
+</p>
+
+
+
+                <a class="button radius secondary small right" href="https://prabjaya.github.io/pynotes/double-underscore-string.html">Read More</a>
+                <hr  class="gradient"/>
+            </article>
+
+        
+
+
+            <article>
                 <a href="https://prabjaya.github.io/pynotes/dunder.html"><h3 class="article-title">Dunder</h3></a>
-<h6 class="subheader" title="2025-01-18T00:00:00-05:00">Sat 18 January 2025
+<h6 class="subheader" title="2025-08-13T00:00:00-04:00">Wed 13 August 2025
 </h6>
 
 
@@ -329,7 +453,7 @@
 
             <article>
                 <a href="https://prabjaya.github.io/pynotes/single-leadingpg.html"><h3 class="article-title">Single-Leadingpg</h3></a>
-<h6 class="subheader" title="2025-01-18T00:00:00-05:00">Sat 18 January 2025
+<h6 class="subheader" title="2025-08-13T00:00:00-04:00">Wed 13 August 2025
 </h6>
 
 

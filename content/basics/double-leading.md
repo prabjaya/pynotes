@@ -1,6 +1,6 @@
 ---
 title: Double-Leading
-date: 2025-01-18
+date: 2025-08-13
 author: Your Name
 cell_count: 6
 score: 5
