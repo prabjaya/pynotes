@@ -25,7 +25,3 @@ print(partialwordidentify(stringwords,partialword))
 
 resulttest = partialwordidentify(stringwords,partialword)
 assert len(resulttest) == 4
-
-
-
-
